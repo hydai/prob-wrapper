@@ -9,7 +9,7 @@ rm ./output/pack.tar.xz
 mkdir $TMP_ROOT
 mkdir $TMP_ROOT/http
 mkdir $TMP_ROOT/res
-mkdir $TMP_ROOT/res/testcase
+mkdir $TMP_ROOT/res/testdata
 echo "Cleanup temp folder......Done"
 
 echo "======================================="
@@ -27,8 +27,8 @@ echo "Generate cont.html......Done"
 
 echo "======================================="
 echo "Copy input and output file..."
-cp ./data/*.in $TMP_ROOT/res/testcase
-cp ./data/*.out $TMP_ROOT/res/testcase
+cp ./data/*.in $TMP_ROOT/res/testdata
+cp ./data/*.out $TMP_ROOT/res/testdata
 echo "Copy input and output file......Done"
 
 echo "======================================="
