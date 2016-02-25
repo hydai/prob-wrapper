@@ -16,7 +16,10 @@ for i in range(1, group_number+1):
     testcase = {}
     testcase['weight'] = int(input('Group weight? '))
     data = input('Group data?(ex: 1,2) ')
-    testcase['data'] = data.split(',')
+    testcase['data'] = []
+    ds = data.split(',')
+    for t in ds:
+        testcase['data'].append(int(t))
     groups.append(testcase)
 
 conf['test'] = groups
