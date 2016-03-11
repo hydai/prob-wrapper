@@ -7,6 +7,7 @@ conf['memlimit'] = int(input('Memory limit(in bytes): '))
 conf['compile'] = input('Compile type(g++/makefile): ')
 conf['score'] = 'rate'
 conf['check'] = 'diff'
+conf['metadata'] = ""
 
 groups = []
 
